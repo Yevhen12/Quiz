@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <h1 class="name">Quiz</h1>
+
+    <div class="wrapper">
+        <div class="begin">
+            <div class="left">
+                <p class="amount-questions">Question: <span id="ur-answer"></span> / <span id="all-questions"></span></p>
+            </div>
+            <div class="rigth">
+                <p id="question" class = "question"></p>
+            </div>
+        </div>
+
+        <div class="options">
+            <div id = "op1" class="option1 option"></div>
+            <div id = "op2" class="option2 option"></div>
+            <div id = "op3" class="option3 option"></div>
+            <div id = "op4" class="option4 option"></div>
+        </div>
+
+        <button class = "next">Next</button>
+
+        <div id = "answer-list" class="answer-list">
+
+        </div>
+    </div>
+
+    <div id = "modal" class="modal">
+        <p class="modal-text"></p>
+        <button id = "try-again" class="try-again">Try again</button>
+    </div>
+
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
